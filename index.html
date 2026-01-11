@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euforia Team's | Oficial</title>
     <link rel="stylesheet" href="style.css">
-    <title>Euforia Team's | Dev Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav><h1>Euforia <span>Team</span></h1></nav>
-    <main>
-        <section class="hero">
-            <h2>Pasión por el Código</h2>
-            <button id="btnAction">Explorar Proyectos</button>
-        </section>
-    </main>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="https://files.catbox.moe/34tlxv.png" alt="Euforia Logo" class="logo">
+            <span>Euforia Team</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="https://discord.gg/invite-link" target="_blank" class="discord-nav"><i class="fab fa-discord"></i> Discord</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Programación con <span>Euforia</span></h1>
+            <p>Donde el código se convierte en arte y la innovación no tiene límites.</p>
+            <div class="cta-buttons">
+                <a href="proyectos.html" class="btn-primary">Ver Trabajos</a>
+                <a href="https://discord.gg/invite-link" class="btn-secondary">Unirse al Team</a>
+            </div>
+        </div>
+    </header>
     <script src="script.js"></script>
 </body>
 </html>
